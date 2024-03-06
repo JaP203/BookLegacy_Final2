@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/mainFragment2">
+
+    <fragment
+        android:id="@+id/bookListFragment"
+        android:name="com.marisma.booklegacy.BookListFragment"
+        android:label="@string/lista_L"
+        tools:layout="@layout/fragment_book_list" >
+        <action
+            android:id="@+id/action_bookListFragment_to_menuFragment"
+            app:destination="@id/menuFragment" />
+        <action
+            android:id="@+id/action_bookListFragment_to_bookDetailFragment"
+            app:destination="@id/bookDetailFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/mainFragment2"
+        android:name="com.marisma.booklegacy.fragments.MainFragment"
+        android:label="@string/login" >
+        <action
+            android:id="@+id/action_mainFragment2_to_menuFragment"
+            app:destination="@id/menuFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/menuFragment"
+        android:name="com.marisma.booklegacy.fragments.MenuFragment"
+        android:label="@string/menu" >
+        <action
+            android:id="@+id/action_menuFragment_to_mainFragment2"
+            app:destination="@id/mainFragment2" />
+        <action
+            android:id="@+id/action_menuFragment_to_bookListFragment"
+            app:destination="@id/bookListFragment" />
+        <action
+            android:id="@+id/action_menuFragment_to_creditFragment"
+            app:destination="@id/creditFragment" />
+        <action
+            android:id="@+id/action_menuFragment_to_usuFragment"
+            app:destination="@id/usuFragment" />
+        <action
+            android:id="@+id/action_menuFragment_to_favBookList"
+            app:destination="@id/favBookList" />
+    </fragment>
+    <fragment
+        android:id="@+id/creditFragment"
+        android:name="com.marisma.booklegacy.CreditFragment"
+        android:label="@string/creditos" />
+    <fragment
+        android:id="@+id/bookDetailFragment"
+        android:name="BookDetailFragment"
+        android:label="BookDetailFragment" />
+    <fragment
+        android:id="@+id/usuFragment"
+        android:name="com.marisma.booklegacy.usuFragment"
+        android:label="@string/Usuario"
+        tools:layout="@layout/fragment_usu" />
+    <fragment
+        android:id="@+id/favBookList"
+        android:name="com.marisma.booklegacy.FavBookList"
+        android:label="@string/listFav" />
+</navigation>

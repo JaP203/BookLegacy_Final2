@@ -1,0 +1,47 @@
+<resources>
+    <string name="app_name">BookLegacy</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="pages">d</string>
+    <string name="btn_sigui">Siguiente</string>
+    <string name="bienvenido">Bienvenido</string>
+
+    <!-- Menu -->
+
+    <string name="btn_lis_libr">Lista libros</string>
+    <string name="btn_usuario">Usuario</string>
+    <string name="btn_credits">Credits</string>
+    <string name="btn_salir">Salir</string>
+    <string name="btn_fav">Favoritos</string>
+
+    <!-- Lista libros -->
+    <string name="lista_de_libros">Lista de libros</string>
+    <string name="contactar">Contactar</string>
+    <string name="lista_de_favoritos">Lista de favoritos</string>
+    <string name="Texto_usu">¡Bienvenido a nuestra aplicación de libros! Descubre una amplia variedad de libros en nuestra biblioteca
+        virtual. Explora géneros que van desde la fantasía épica hasta la ciencia ficción futurista,
+        desde los clásicos de la literatura mundial hasta los bestsellers más recientes.
+        Guarda tus libros favoritos, lleva un registro de tu progreso de lectura y comparte tus opiniones con otros
+        entusiastas de la lectura en nuestra comunidad integrada. ¡Sumérgete en un mundo de historias fascinantes y deja que la
+        magia de la lectura te transporte a lugares inimaginables!</string>
+    <string name="usuario_usu">Usuario</string>
+    <string name="atributo_pags">paginas</string>
+    <string name="atributo_autor">Autor</string>
+    <string name="atributo_detail_autor">Autor</string>
+    <string name="fav_detail_descripcion">Descripcion</string>
+    <string name="detail_titulo">Titulo</string>
+    <string name="detail_paginas">paginas</string>
+    <string name="inicio">Inicio</string>
+    <string name="descubrir">Lista de libros</string>
+    <string name="favoritos">Favoritos</string>
+    <string name="usuario">Usuario</string>
+    <string name="lista_L">Lista libros</string>
+    <string name="login">Login</string>
+    <string name="menu">Menu</string>
+    <string name="creditos">Creditos</string>
+    <string name="Usuario">Usuario</string>
+    <string name="listFav">Lista de favoritos</string>
+    <string name="DetailGenero">Genero</string>
+
+
+</resources>

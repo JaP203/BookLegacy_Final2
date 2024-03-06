@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@id/menuFragment"
+        android:icon="@drawable/homemono_105947"
+        android:title="@string/inicio"
+        app:showAsAction="ifRoom"/>
+    <item
+
+        android:id="@+id/bookListFragment"
+        android:icon="@drawable/lupa"
+        android:title="@string/descubrir"
+        app:showAsAction="ifRoom"/>
+
+    <item
+        android:id="@+id/favBookList"
+        android:icon="@drawable/fav"
+        android:title="@string/favoritos"
+        app:showAsAction="ifRoom"/>
+    <item
+        android:id="@+id/usuFragment"
+        android:icon="@drawable/usuario"
+        android:title="@string/usuario"
+        app:showAsAction="ifRoom"/>
+
+</menu>

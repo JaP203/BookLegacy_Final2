@@ -1,0 +1,45 @@
+<resources>
+    <string name="app_name">BookLegacy</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="pages">d</string>
+    <string name="btn_sigui">Next</string>
+    <string name="bienvenido">Welcome</string>
+
+    <!-- Menu -->
+
+    <string name="btn_lis_libr">Book list</string>
+    <string name="btn_usuario">User</string>
+    <string name="btn_credits">Credits</string>
+    <string name="btn_salir">Exit</string>
+    <string name="btn_fav">Favorite</string>
+
+    <!-- Lista libros -->
+    <string name="lista_de_libros">Book list</string>
+    <string name="contactar">contact</string>
+    <string name="lista_de_favoritos">Favorite list</string>
+    <string name="Texto_usu">Welcome to our books app! Discover a wide variety of books in our library
+        virtual. Explore genres ranging from epic fantasy to futuristic science fiction,
+        from the classics of world literature to the most recent bestsellers.
+        Save your favorite books, track your reading progress, and share your opinions with others
+        reading enthusiasts in our integrated community. Immerse yourself in a world of fascinating stories and let the
+        magic of reading will transport you to unimaginable places!</string>
+    <string name="usuario_usu">User</string>
+    <string name="atributo_pags">pages</string>
+    <string name="atributo_autor">Author</string>
+    <string name="atributo_detail_autor">Author</string>
+    <string name="fav_detail_descripcion">Description</string>
+    <string name="detail_titulo">Title</string>
+    <string name="detail_paginas">Pages</string>
+    <string name="inicio">Home</string>
+    <string name="descubrir">Book list</string>
+    <string name="favoritos">Favorites</string>
+    <string name="usuario">User</string>
+    <string name="lista_L">Book list</string>
+    <string name="login">Login</string>
+    <string name="menu">Menu</string>
+    <string name="creditos">Credits</string>
+    <string name="Usuario">User</string>
+    <string name="listFav">Favorite list</string>
+
+</resources>
